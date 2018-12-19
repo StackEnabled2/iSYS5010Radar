@@ -158,7 +158,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\serial_radar\imports\civetwww\include;..\serial_radar\imports\prebuilt-dll-2-9-1-release\include;..\serial_radar\imports\isys-5010\library_v6.7\include;..\serial_radar\imports\pthreads\include;..\serial_radar\imports\LibFT4222\inc;..\serial_radar\imports\ftd2xx;C:\Users\rickk\paho.mqtt.cpp\src\samples;C:\Users\rickk\paho.mqtt.c\src;C:\Users\rickk\paho.mqtt.c\include;C:\Users\rickk\paho.mqtt.cpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\serial_radar\imports\civetwww\include;..\serial_radar\imports\prebuilt-dll-2-9-1-release\include;..\serial_radar\imports\isys-5010\library_v6.7\include;..\serial_radar\imports\pthreads\include;..\serial_radar\imports\LibFT4222\inc;..\serial_radar\imports\ftd2xx;..\serial_radar\imports\paho.mqtt.c\src;..\serial_radar\imports\paho.mqtt.c\include;..\serial_radar\imports\paho.mqtt.cpp\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
@@ -167,7 +167,7 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <AdditionalDependencies>LibFT4222.lib;ftd2xx.lib;serial_radarAPI.lib;paho-mqtt3a.lib;paho-mqttpp3.lib;pthreadVCE2.lib;pthreadVC2.lib;pthreadVSE2.lib;ex_embed_cpp.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\serial_radar\imports\isys-5010\library_v6.7\lib_msvc;..\serial_radar\imports\pthreads\lib\x86;..\serial_radar\lib;..\serial_radar\imports\ftd2xx\i386;..\serial_radar\imports\LibFT4222\lib;C:/Users/rickk/paho.mqtt.c/build/src;C:/Users/rickk/paho.mqtt.c/build/src/$(Configuration);C:/Users/rickk/paho.mqtt.cpp/build/src;C:/Users/rickk/paho.mqtt.cpp/build/src/$(Configuration);..\serial_radar\imports\civetwww\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\serial_radar\imports\isys-5010\library_v6.7\lib_msvc;..\serial_radar\imports\pthreads\lib\x86;..\serial_radar\lib;..\serial_radar\imports\ftd2xx\i386;..\serial_radar\imports\LibFT4222\lib;..\serial_radar\imports/paho.mqtt.c/build/src;..\serial_radar\imports/paho.mqtt.c/build/src/$(Configuration);..\serial_radar\imports/paho.mqtt.cpp/build/src;..\serial_radar\imports/paho.mqtt.cpp/build/src/$(Configuration);..\serial_radar\imports\civetwww\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='library|Win32'">
