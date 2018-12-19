@@ -1,0 +1,12 @@
+NearRangeMargin: 25
+MainRangeMargin: 36
+LongRangeMargin: 35
+up-ramp active channel 1
+RCS output ON 
+clustering OFF 
+device name: iSYS-5010_0000010889
+device address: 100
+product info:  5010
+serial number:  10889
+DSP version:   2:1
+RFE version:   2:1
